@@ -1,0 +1,29 @@
+.albumContainer {
+    text-align: center;
+    padding: 30px 10px 10px;
+    background-color: rgba(128, 128, 128, 0.1);
+    width: 200px;
+    height: 200px;
+    // border: 1px solid rgba(128, 128, 128, 0.278);
+    box-sizing: border-box;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    cursor: pointer;
+
+    span {
+        font-weight: 700;
+    }
+
+    .title {
+        height: 70px;
+    }
+
+    .name {
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.20);
+    }
+}

@@ -1,0 +1,16 @@
+.style {
+    display: block;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #e9eff671;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+    &:focus {
+        outline: 1px solid rgba(255, 228, 196, 0.91);
+    }
+}

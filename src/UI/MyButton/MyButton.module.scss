@@ -1,0 +1,25 @@
+.style {
+    display: block;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #e9eff685;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:focus {
+        outline: 1px solid rgba(255, 228, 196, 0.9);
+    }
+
+    &:hover {
+        background: #e9eff6e9;
+    }
+
+    &:active {
+        transform: scale(1.05);
+    }
+}
