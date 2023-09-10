@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+    gap: 15px;
+    padding: 20px 0;
+
+    span {
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: 1s box-shadow;
+
+        &:hover {
+            opacity: 0.8;
+            transform: scale(1.01);
+
+            box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);
+
+        }
+    }
+
+    .active {
+        border: 1px solid rgba(0, 0, 0, 1);
+
+    }
+
+}
